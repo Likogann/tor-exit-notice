@@ -4,7 +4,7 @@ An updated "tor-exit-notice.html" that contains the same information as the old 
 Download the git repository. <b>This uses CSS and Fonts like a regular website</b>. You may have to use software like NGINX or Apache2 to host your webserver!
 
 ### NGINX / Apache2
-[NGINX Static Web Directory](https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/)
+[NGINX Static Web Directory](https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/) <br>
 [Serving a static web page using Apache](https://github.com/KBNLresearch/nl-menu-resources/blob/master/doc/serving-static-website-with-Apache.md)
 
 ### Modifying the Page
