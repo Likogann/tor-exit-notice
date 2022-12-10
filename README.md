@@ -1,7 +1,7 @@
 # Updated Tor Exit Notice
 An updated "tor-exit-notice.html" that contains the same information as the old one, just on a nicer web page.
 ## Installation
-Download the git repository. <b>This uses CSS and Fonts like a regular website. You may have to use software like NGINX or Apache2 to host your webserver!
+Download the git repository. <b>This uses CSS and Fonts like a regular website</b>. You may have to use software like NGINX or Apache2 to host your webserver!
 
 ### NGINX / Apache2
 [NGINX Static Web Directory](https://docs.nginx.com/nginx/admin-guide/web-server/serving-static-content/)
