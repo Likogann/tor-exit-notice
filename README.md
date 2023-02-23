@@ -15,6 +15,3 @@ Optionally, you can also modify the footer to add other contacts. I have my gith
 
 ## Credit
 While credit is greatly apreciated, I really made this website using [w3school's web tempates](https://www.w3schools.com/w3css/w3css_templates.asp). The real credit goes to w3schools.
-You can remove any links to me, this includes emails, links, and copyright messages.
-
-If  you really want to credit me though, you can keep my github in there. 
