@@ -1,3 +1,20 @@
+<!--
+    https://github.com/likogann/tor-exit-notice
+    A revamped single-page tor-exit-notice.
+    Copyright © Likogan, All rights reserved. GPL-3.0 License
+-->
+<!--
+  * Setup Instructions
+   - Change contact emails to your own
+   - Host this directory as a static web directory
+  
+  * Information
+   - Everything is hosted locally. No calls to google, cloudflare, or anywhere else
+   - GPL-3.0 License (Any modifications to this project must be open source)
+   - You can safely remove & replace the copyright message in the footer of the webpage. 
+    You cannot remove the copyright notice at the top of this file.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,19 +22,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/src/css/main.css">
-        <link rel="stylesheet" href="/src/css/fonts.css"> <!-- https://fonts.googleapis.com/css?family=Lato https://fonts.googleapis.com/css?family=Montserrat -->
+        <link rel="stylesheet" href="/src/css/fonts.css"> <!-- https://fonts.googleapis.com/css?family=Lato & https://fonts.googleapis.com/css?family=Montserrat -->
         <link rel="stylesheet" href="/src/fonts/fontawesome-free-6.2.1-web/css/all.css"> <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css -->
-        <style>
-            html {scroll-behavior: smooth;}
-            body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; src: url("src/fonts/lato/S6uyw4BMUTPHjxAwXjeu.woff2")}
-            .w3-bar,h1,button {font-family: "Montserrat", sans-serif; src: url("src/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2")}
-            .icon-fa {font-size:200px}
-            a {color: blueviolet; transition: all ease-in-out 50ms;}
-            a:hover {color:#59316B}
-
-            .bg-purple {background-color:#59316B; background:#59316B; color:white;}
-            .text-purple {color:#59316B;}
-        </style>
+        <link rel="stylesheet" href="./src/css/custom.css"> <!-- Custom CSS not offered by the default w3 css file -->
     </head>
 <body>
 
@@ -154,7 +161,7 @@
     <div class="w3-content">
         <div class="w3-third">
             <div class="w3-medium w3-padding-16">
-                <p class="w3-large"><b>Useful Links</b></p>
+                <p class="w3-large"><b>Links</b></p>
                 <i class="fa-solid fa-angles-right w3-small"></i> <a href="/">Home</a><br>
                 <i class="fa-solid fa-angles-right w3-small"></i> <a href="https://www.torproject.org">Tor Project</a><br>
                 </div>
@@ -162,7 +169,7 @@
         <div class="w3-third">
             <div class="w3-medium w3-padding-16">
                 <p class="w3-large"><b>This Website</b></p>
-                <i class="fa-brands fa-github w3-small"></i> <a href="https://github.com/Likogann" target="__blank">https://github.com/Likogann/tor-exit-notice</a></i>
+                <i class="fa-brands fa-github w3-small"></i> <a href="https://github.com/Likogann/Likogann/tor-exit-notice" target="__blank">GitHub</a></i>
             </div>
         </div>
         <div class="w3-third">
@@ -175,17 +182,8 @@
     </div>
 </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+<!-- Scripts -->
+<script src="./src/js/top-bar.js"></script>
 
 </body>
 </html>
