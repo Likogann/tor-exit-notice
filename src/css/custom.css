@@ -1,0 +1,9 @@
+html {scroll-behavior: smooth;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif; src: url("src/fonts/lato/S6uyw4BMUTPHjxAwXjeu.woff2")}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif; src: url("src/fonts/montserrat/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2")}
+.icon-fa {font-size:200px}
+a {color: blueviolet; transition: all ease-in-out 50ms;}
+a:hover {color:#59316B}
+
+.bg-purple {background-color:#59316B; background:#59316B; color:white;}
+.text-purple {color:#59316B;}
