@@ -1,3 +1,7 @@
+# REPOSITORY MOVED !
+This repository, along with my other repositories, have been moved to my gitlab. See the new repository: https://gitlab.likogan.dev/likogan/tor-exit-notice
+
+
 # Updated Tor Exit Notice
 A static HTML web page using the Tor colour scheme designed to replace the `tor-exit-notice.html` that relays come with. 
 > [!IMPORTANT]  
